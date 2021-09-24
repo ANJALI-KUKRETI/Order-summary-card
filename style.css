@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: 100vw;
+  height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  height: 600px;
+  width: 360px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  box-shadow: hsl(223, 37%, 68%) 5px 5px 80px;
+}
+.background {
+  background-image: url(images/illustration-hero.svg);
+  background-repeat: no-repeat;
+  background-size: 380px 180px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.innercon {
+  position: relative;
+  top: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: hsl(223, 47%, 23%);
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: hsl(224, 23%, 55%);
+  line-height: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.l3 {
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.change {
+  padding-left: 35px;
+  font-weight: 900;
+}
+.change:hover {
+  color: hsl(224, 23%, 55%);
+}
+
+.ann {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.year {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+.pay {
+  margin-top: 25px;
+  width: 310px;
+  height: 50px;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: hsl(224, 19%, 60%) 2px 4px 30px;
+  margin-bottom: 20px;
+}
+.pay:hover {
+  background-color: rgb(92, 92, 241);
+}
+
+.cancel {
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
